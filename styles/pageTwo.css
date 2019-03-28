@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Open Sans', sans-serif; */
+    outline-style: none;
+}
+@font-face{
+    font-family: "gilroy-regular";
+    src:url(../fonts/gilroy-regular.otf)
+}
+@font-face{
+    font-family: "gilroy-semibold";
+    src:url(../fonts/gilroy-semibold.otf)
+}
+
+.second__page__wrapper .logo__image{
+    width:84px;
+}
+.second__page__wrapper{
+    width: 430px !important;
+    height: 430px;
+    background-color:#6c44f5 !important; 
+}
+.second__page__wrapper .close__button .close{
+    outline: none;
+}
+.second__page__wrapper .modal-header .rounded{
+    width:355px;
+}
+.second__page__wrapper  .modal-body{
+    background-color: white !important;
+    height:180px;
+}
+.second__page__wrapper .modal__header{
+    padding:0;
+}
+.second__page__wrapper .modal-body .yes__icon{
+    width:50px;
+    height:50px;
+    margin-top:-27px;
+}
+.second__page__wrapper .modal-body .modal__body__wrapper{
+    align-items: center;
+    text-align: center;
+}
+.second__page__wrapper .modal__footer{
+    background-color:white;
+    border:none; 
+}
+.second__page__wrapper .modal__footer .page__two__link{
+    text-decoration-line: underline; 
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.second__page__wrapper .modal-body .modal__body__wrapper{
+    width:90%;
+    margin:0 auto;
+}
+.second__page__wrapper .modal-body .modal__body__wrapper p{
+font-size: 14px;
+font-family: gilroy-regular;
+}
+.second__page__wrapper .modal__body__wrapper h5,h4{
+    font-family: gilroy-semibold;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "gilroy-semibold";
+    src:url(../fonts/gilroy-semibold.otf)
+}
+
+[type=button]:not(:disabled), 
+[type=reset]:not(:disabled), 
+[type=submit]:not(:disabled), 
+button:not(:disabled) {
+    outline-style: none;
+}
+.page__four__wrapper {
+    width: 430px !important;
+    height: 430px;
+}
+.page__four__wrapper .modal-header{
+
+    border:none; 
+ }
+ .page__four__wrapper .modal-body .modal__body__wrapper{
+    align-items: center;
+    text-align: center;
+}
+.page__four__wrapper .modal__body__wrapper h4{
+    font-family: gilroy-semibold;
+}
+.page__four__wrapper .modal__body__wrapper p{
+    font-family: 'Open Sans', sans-serif;
+}
+.page__four__wrapper .modal-footer{
+   margin-bottom:45px;
+   border:none; 
+}
+.page__four__wrapper .modal-footer button{
+   height:55px;
+   width:260px;
+   border:1px solid #e4e3e6;
+   background-color: white;
+   border-radius: 50px;
+   font-size:14px;
+   outline-style: none;
+   font-family: gilroy-semibold;
+ }
+ .page__four__wrapper .modal-footer .modal__footer__button:hover{
+     background-color: #f6f6f6;
+ }
