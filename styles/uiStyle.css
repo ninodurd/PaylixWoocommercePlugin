@@ -13,6 +13,11 @@
     font-family: "gilroy-semibold";
     src: url(../fonts/gilroy-semibold.otf)
 }
+@font-face {
+    font-family: "gilroy-medium";
+    src: url(../fonts/gilroy-medium.otf)
+}
+
 
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     outline: none;
@@ -243,6 +248,7 @@
 
 .page__three__wrapper .modal-body p {
     font-size: 14px;
+    font-family: gilroy-medium;
 }
 
 .page__three__wrapper .modal__footer {
