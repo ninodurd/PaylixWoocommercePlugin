@@ -14,7 +14,6 @@
     src: url(../fonts/gilroy-semibold.otf)
 }
 
-
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     outline: none;
 }
@@ -41,6 +40,9 @@
     padding-top: 3px;
     font-family: gilroy-semibold;
 }
+.first__page__wrapper .mobile__body__wrapper{
+    padding-top: 6px;
+}
 
 .close {
     outline: none;
@@ -64,11 +66,11 @@
 
 .first__page__wrapper .input-group-addon {
     background-color: #e4e3e6;
-    border-radius: 17px;
+    border-radius: 20px;
     align-items: center;
-    height: 30px;
+    height: 36px;
     margin-left: 3px;
-    padding: 3px 14px;
+    padding: 5px 16px;
 }
 
 .first__page__wrapper .modal-body {
@@ -294,6 +296,9 @@
     margin-bottom: 45px;
     border: none;
 }
+.page__four__wrapper .modal-footer a:hover {
+    text-decoration: none ;
+}
 
 .page__four__wrapper .modal-footer button {
     height: 55px;
@@ -346,6 +351,11 @@
 }
 
 
+.close__button .close__image__grey{
+    height:25px;
+    width:25px;
+}
+
 /* mobile verson */
 
 
@@ -367,6 +377,8 @@
     margin-left: auto;
 }
 
+
+
 @media (max-width:767px) {
     .first__page__wrapper {
         height: 215px;
@@ -376,21 +388,6 @@
         position: fixed !important;
         bottom: 0;
     }
-    /* .modal.fade:not(.in) .modal-dialog {
-        -webkit-transform: translate3d(0, 0, 0) !important;
-        transform: translate3d(0, 0, 0)  !important;
-    } */
-    
-    /* .modal .modal-dialog{
-        display: none;
-    } */
-    /* .modal.fade .modal-dialog {
-        transition: -webkit-transform .3s ease-out; 
-        transition: transform .3s ease-out;
-        transition: transform .3s ease-out,-webkit-transform .3s ease-out;
-        -webkit-transform: translate(0,0);
-         transform: translate(0,0);
-    } */
     .modal.fade .modal-dialog {
         -moz-transition: none !important;
         -o-transition: none !important;
@@ -400,7 +397,8 @@
         -ms-transform: none !important;
         -o-transform: none !important;
         -webkit-transform: none !important;
-        transform: none !important;}
+        transform: none !important;
+    }
     .modal-dialog {
         margin: 0 !important;
         /*add what you want here*/
@@ -471,26 +469,28 @@
     .first__page__wrapper .modal-body .mobile__body__button {
         background-color: #e4e3e6;
         padding: 13px 24px;
-        height:50px;
+        height: 50px;
         border-radius: 32px;
         align-items: center;
         position: absolute;
         right: 3%;
         top: 70px;
     }
-    
+    .first__page__wrapper .modal-body .mobile__body__button:active {
+        background-color: #6c44f5;
+    }
     .second__page__wrapper .modal-header {
         height: 70px;
         border-bottom: 1px solid #e6e6e6;
         background-color: #f9f9f9;
         border-radius: 0.8rem 0.8rem 0 0;
     }
-    .second__page__wrapper .modal-header h5{
+    .second__page__wrapper .modal-header h5 {
         font-family: gilroy-semibold;
-        font-size:22px;
+        font-size: 22px;
         position: absolute;
-        right:20px;
-        top:22px;
+        right: 20px;
+        top: 22px;
     }
     .second__page__wrapper .mobile_button_small {
         height: 6px;
@@ -510,28 +510,28 @@
     .second__page__wrapper .modal-body .modal__body__wrapper {
         text-align: start;
     }
-    .second__page__wrapper .modal-body .modal__body__wrapper .mobile__text{
+    .second__page__wrapper .modal-body .modal__body__wrapper .mobile__text {
         font-family: 'Open Sans', sans-serif;
     }
     .second__page__wrapper .modal-body .modal__body__wrapper {
         width: 97%;
         margin: 0 auto;
     }
-    .second__page__wrapper .modal-body{
-        height:100px!important;
+    .second__page__wrapper .modal-body {
+        height: 100px!important;
     }
-    .second__page__wrapper .modal-footer{
-       padding-top:60px;
+    .second__page__wrapper .modal-footer {
+        padding-top: 60px;
     }
-    .modal .modal-dialog .second__page__wrapper{
+    .modal .modal-dialog .second__page__wrapper {
         height: auto;
     }
     /* page three */
-    .page__three__wrapper .modal__footer .mobile__icon{
-       height:240px;
-       width:200px;
-      left:17%;
-       z-index:-1;
+    .page__three__wrapper .modal__footer .mobile__icon {
+        height: 240px;
+        width: 200px;
+        left: 17%;
+        z-index: -1;
     }
     .page__three__wrapper .modal__header {
         justify-content: center !important;
@@ -540,44 +540,41 @@
     }
     .page__three__wrapper .modal-body .modal__body__wrapper__second__text {
         width: 100%;
-        margin:0 auto;
+        margin: 0 auto;
         text-align: center;
-        font-size:10px;
-      
+        font-size: 10px;
     }
-  
     .page__three__wrapper .modal-body {
-        padding:0 8px !important;
+        padding: 0 8px !important;
     }
     .page__three__wrapper {
         height: 440px;
-        
     }
-    .page__three__wrapper .mobile__ios__app{
+    .page__three__wrapper .mobile__ios__app {
         background-color: #312e34;
-        height:70px;
-        width:100%;
-        color:white;
+        height: 70px;
+        width: 100%;
+        color: white;
         text-align: center;
     }
     /* .page__five__wrapper .mobile__ios__app .text__container{
         padding-top:20px;
     } */
-    .page__three__wrapper .mobile__ios__app h4{
+    .page__three__wrapper .mobile__ios__app h4 {
         font-family: gilroy-regular;
-        font-size:22px;
+        font-size: 22px;
     }
-    .page__three__wrapper .mobile__ios__app p{
-        margin-bottom:0;
+    .page__three__wrapper .mobile__ios__app p {
+        margin-bottom: 0;
         font-size: 11px;
-        line-height:0.8;
+        line-height: 0.8;
         word-spacing: 2px;
     }
-    .page__three__wrapper .apple__logo{
-        height:35px;
-        width:30px;
-        margin-top:12px;
-        margin-right:7px;
+    .page__three__wrapper .apple__logo {
+        height: 35px;
+        width: 30px;
+        margin-top: 12px;
+        margin-right: 7px;
     }
     .page__three__wrapper .mobile_button_small {
         height: 6px;
@@ -594,7 +591,6 @@
         margin-right: auto;
         margin-left: auto;
     }
-
     /* page four */
     .page__four__wrapper .modal-header {
         height: 70px;
@@ -602,7 +598,7 @@
         background-color: #f9f9f9;
         border-radius: 0.8rem 0.8rem 0 0;
     }
-    .page__four__wrapper{
+    .page__four__wrapper {
         background-color: #f9f9f9 !important;
     }
     .page__four__wrapper .mobile_button_small {
@@ -621,8 +617,7 @@
         margin-left: auto;
     }
     /* page five */
-
-    .page__five__wrapper .mobile_button_small{
+    .page__five__wrapper .mobile_button_small {
         height: 6px;
         width: 70px;
         background-color: lightgray;
@@ -637,5 +632,4 @@
         margin-right: auto;
         margin-left: auto;
     }
-
 }
