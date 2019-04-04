@@ -68,7 +68,7 @@
     background-color: #e4e3e6;
     border-radius: 20px;
     align-items: center;
-    height: 36px;
+    height: 35px;
     margin-left: 3px;
     padding: 5px 16px;
 }
@@ -98,7 +98,7 @@
     border-bottom: 2px solid #e4e3e6;
     width: 200px;
     outline: none;
-    margin-left: 21px;
+    margin-left: 17px;
     display: inline-block;
 }
 
@@ -133,6 +133,7 @@
 .first__page__wrapper .modal-body .flag__wrapper {
     border-bottom: 2px solid #e4e3e6;
     height: 30px;
+     width:65px;
 }
 
 .first__page__wrapper input:focus ~ #btnClick {
